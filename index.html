@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Home work3</title>
+    <style>
+    p{
+    	margin: 0px;
+
+    }
+    .wrapper {
+        width: 1000px;
+        margin: 0 auto;
+
+    }
+
+    .header {
+        padding-top: 30px;
+    }
+    .menu {
+        padding: 10px 0px;
+        background: grey;
+        margin-top: 40px;
+    }
+
+    .menu a {
+        text-decoration: none;
+        color: #fff;
+        padding: 10px 40px;
+    }
+    .menu a:hover{
+    	background: black;
+    }
+
+    .content {
+        margin-top: 50px;
+    }
+
+    .nav-menu {
+        float: left;
+        width: 300px;
+        padding-left: 0px;
+        margin: 0px;
+    }
+
+    .nav-menu li {
+    	border: 1px solid gray;
+        border-bottom: none;
+        list-style-type: none;
+        margin-right: 40px;     
+    }
+    .nav-menu li:last-child{
+    	border-bottom: 1px solid gray;
+    }
+    .nav-menu p{
+    	padding: 10px 30px;
+    	position: relative;
+    }
+    .nav-menu p:hover{
+    	left:  8px;
+    	background: #a9a9a966;
+    }
+
+    .main-content {
+        float: right;
+        width: 650px;
+    }
+    .main-content img{
+    	border:1px solid gray;
+    	padding: 73px;
+    }
+    .main-content p{
+    	margin: 10px 30px;
+    }
+    .content::after {
+        content: '';
+        clear: both;
+        display: block; 
+    }
+
+    .container {
+        clear: both;
+        width: 1000px;
+        padding: 10px 0px;
+        background: #a9a9a9ab;
+        margin-top: 20px;
+    }
+
+    .container a {
+        text-decoration: none;
+        color: #fff;
+        padding: 10px 40px;
+    }
+    .container a:hover{
+    	background: #a9a9a9;
+    	text-decoration: underline;
+    }
+    .container a:last-child{
+    	position: relative;
+    	left: 220px;
+    }
+    footer{
+    	margin-bottom: 50px;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <a href="#">
+			   <img src="logo.png" alt="logo">
+		    </a>
+        </div>
+        <div class="menu">
+            <a href="#">Главная</a>
+            <a href="#">Товары</a>
+            <a href="#">О Нас</a>
+            <a href="#">Контакты</a>
+        </div>
+        <div class="content">
+            <ul class="nav-menu">
+                <li><p>Ноутбуки</p></li>
+                <li><p>Планшеты</p></li>
+                <li><p>Телефоны</p></li>
+                <li><p>Телевизоры</p></li>
+                <li><p>Бытовая техника</p></li>
+                <li><p>Автотовары</p></li>
+            </ul>
+            <div class="main-content">
+                <img src="bicycle.png" alt="bicycle">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed dolor, odit corrupti sequi ut consequatur dolores voluptatem. Sequi, doloribus voluptatem quos laudantium debitis dignissimos quae ipsam blanditiis, nam incidunt dolorum.</p>
+            </div>
+        </div>
+
+        <footer>
+            <div class="container">
+                <a href="#">Главная</a>
+                <a href="#">Товары</a>
+                <a href="#">О Нас</a>
+                <a href="#">Контакты</a>
+                <a href="#">2018 @ All rights reserved</a>
+            </div>
+        </footer>
+
+    </div>
+</body>
+
+</html>
